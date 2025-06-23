@@ -1,6 +1,6 @@
 # 🍝 BellaBite – Flutter Food Delivery App UI
 
-BellaBite is a beautifully designed food delivery app UI built using **Flutter**. Inspired by the warmth and richness of Italian cuisine, this app UI provides a clean, modern, and fully responsive experience – ideal for any food ordering or restaurant app concept.
+BellaBite is a beautifully designed food delivery app UI built using **Flutter**. Inspired by the richness of Italian cuisine, this app UI provides a clean, modern, and fully responsive experience – ideal for any food ordering or restaurant app concept.
 
 ---
 
@@ -21,9 +21,6 @@ BellaBite is a beautifully designed food delivery app UI built using **Flutter**
 
 - **Flutter** (UI framework)  
 - **Dart** (Programming language)  
-- **Sizer** (for responsiveness)  
-- Modular UI components and reusable widgets  
-- Custom color palette inspired by Italian themes  
 
 ---
 
@@ -52,7 +49,7 @@ BellaBite is a beautifully designed food delivery app UI built using **Flutter**
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/your-username/bellabite.git
+git clone https://github.com/Sourav0174/bellabite_food_delivery_app_ui_flutter.git
 cd bellabite
 flutter pub get
 flutter run
