@@ -1,112 +1,58 @@
-# Flutter
+# 🍝 BellaBite – Flutter Food Delivery App UI
 
-A modern Flutter-based mobile application utilizing the latest mobile development technologies and tools for building responsive cross-platform applications.
+BellaBite is a beautifully designed food delivery app UI built using **Flutter**. Inspired by the warmth and richness of Italian cuisine, this app UI provides a clean, modern, and fully responsive experience – ideal for any food ordering or restaurant app concept.
 
-## 📋 Prerequisites
+---
 
-- Flutter SDK (^3.29.2)
-- Dart SDK
-- Android Studio / VS Code with Flutter extensions
-- Android SDK / Xcode (for iOS development)
+## 📱 Screens Included
 
-## 🛠️ Installation
+- ✅ Onboarding Screens  
+- ✅ Home Screen (with categories, popular dishes, etc.)  
+- ✅ Restaurant Detail Page  
+- ✅ Food Item Detail Page  
+- ✅ Cart & Order Summary  
+- ✅ Payment Method UI  
+- ✅ Order Tracking Page  
+- ✅ Light and Dark Mode Support  
 
-1. Install dependencies:
+---
+
+## 💡 Tech Stack
+
+- **Flutter** (UI framework)  
+- **Dart** (Programming language)  
+- **Sizer** (for responsiveness)  
+- Modular UI components and reusable widgets  
+- Custom color palette inspired by Italian themes  
+
+---
+
+## 🖼️ Preview
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4ded64a7-d224-446e-ac6f-d1c3c7ad7d15" width="250"/>
+  <img src="https://github.com/user-attachments/assets/06a04b13-6bef-4e7d-80f4-165701cd6970" width="250"/>
+  <img src="https://github.com/user-attachments/assets/8e3cb133-f74b-4a0e-94d0-cdb66cef0ddb" width="250"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/27ab4de2-6b78-4bf5-adad-96f0bebb39f7" width="250"/>
+  <img src="https://github.com/user-attachments/assets/edd51dc3-7ed0-45bf-a756-978d3463dda6" width="250"/>
+  <img src="https://github.com/user-attachments/assets/3a66d218-54e6-4ede-9d52-112172d05cbc" width="250"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a543f784-eccf-4101-999c-38ea484e67a3" width="250"/>
+  <img src="https://github.com/user-attachments/assets/9ee06189-52a4-4db5-92e9-bd75cf4f5493" width="250"/>
+</p>
+
+
+
+---
+
+## 🚀 Getting Started
+
 ```bash
+git clone https://github.com/your-username/bellabite.git
+cd bellabite
 flutter pub get
-```
-
-2. Run the application:
-```bash
 flutter run
-```
-
-## 📁 Project Structure
-
-```
-flutter_app/
-├── android/            # Android-specific configuration
-├── ios/                # iOS-specific configuration
-├── lib/
-│   ├── core/           # Core utilities and services
-│   │   └── utils/      # Utility classes
-│   ├── presentation/   # UI screens and widgets
-│   │   └── splash_screen/ # Splash screen implementation
-│   ├── routes/         # Application routing
-│   ├── theme/          # Theme configuration
-│   ├── widgets/        # Reusable UI components
-│   └── main.dart       # Application entry point
-├── assets/             # Static assets (images, fonts, etc.)
-├── pubspec.yaml        # Project dependencies and configuration
-└── README.md           # Project documentation
-```
-
-## 🧩 Adding Routes
-
-To add new routes to the application, update the `lib/routes/app_routes.dart` file:
-
-```dart
-import 'package:flutter/material.dart';
-import 'package:package_name/presentation/home_screen/home_screen.dart';
-
-class AppRoutes {
-  static const String initial = '/';
-  static const String home = '/home';
-
-  static Map<String, WidgetBuilder> routes = {
-    initial: (context) => const SplashScreen(),
-    home: (context) => const HomeScreen(),
-    // Add more routes as needed
-  }
-}
-```
-
-## 🎨 Theming
-
-This project includes a comprehensive theming system with both light and dark themes:
-
-```dart
-// Access the current theme
-ThemeData theme = Theme.of(context);
-
-// Use theme colors
-Color primaryColor = theme.colorScheme.primary;
-```
-
-The theme configuration includes:
-- Color schemes for light and dark modes
-- Typography styles
-- Button themes
-- Input decoration themes
-- Card and dialog themes
-
-## 📱 Responsive Design
-
-The app is built with responsive design using the Sizer package:
-
-```dart
-// Example of responsive sizing
-Container(
-  width: 50.w, // 50% of screen width
-  height: 20.h, // 20% of screen height
-  child: Text('Responsive Container'),
-)
-```
-## 📦 Deployment
-
-Build the application for production:
-
-```bash
-# For Android
-flutter build apk --release
-
-# For iOS
-flutter build ios --release
-```
-
-## 🙏 Acknowledgments
-- Built with [Rocket.new](https://rocket.new)
-- Powered by [Flutter](https://flutter.dev) & [Dart](https://dart.dev)
-- Styled with Material Design
-
-Built with ❤️ on Rocket.new
